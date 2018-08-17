@@ -1,0 +1,7 @@
+apiVersion: "iberryful.com/v1"
+kind: Runner
+metadata:
+  name: busybox
+spec:
+  image: busybox
+  command: ["time"]
